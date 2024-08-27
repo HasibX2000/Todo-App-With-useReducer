@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
-  @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+/* Define custom base styles */
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
   * {
     font-family: "Montserrat", sans-serif;
